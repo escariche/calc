@@ -28,6 +28,13 @@ $(document).ready(function empty(){
             }
         })
 
+	$("#cubo").on("click",
+	 function(){
+	if(isNotNum()){
+	screen.val(screen.val() * screen.val() * screen.val());
+	screen.focus();
+	}})
+
     $("#inverso").on("click",
         function(){
             if(isNotNum()) {
